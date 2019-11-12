@@ -1,0 +1,83 @@
+/* My Awesome Styles */
+
+/* Diagnostic Styling 
+ change background color 
+*/
+
+
+/* Your Awesome CSS */
+* {
+    font-family: sans-serif;
+    background: lightgrey;
+  }
+  
+  #app {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  
+  h1 {
+    font-size: 4em;
+    margin-bottom:0px;
+  }
+  
+  #category {
+    font-size: 1em;
+    margin-top: 10px;
+    letter-spacing: .4em;
+    text-decoration: italic;
+  }
+  
+  #ingtitle {
+    display: inline;
+    font-size: 1.5em;
+    margin-top: 0px;
+    padding: 30px;
+    border:4px black solid;
+    border-radius: 100px;
+    margin-bottom: 100px;
+  }
+  
+  #ingredients { 
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #ing1, #ing2, #ing3, #ing4, #ing5, #ing6, #ing7, #ing8, #ing9, #ing10 {
+    margin-left: 40px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    font-size: 1rem;
+    background: white;
+    border-radius: 100px;
+    padding: 10px;
+  }
+  
+  img {
+    display: inline;
+    width: 30%;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  
+  a {
+    font-size: 2em;
+    text-decoration: none;
+    color: #a87132;
+    padding: 30px;
+    border:4px black solid;
+    border-radius: 100px;
+  }
+  
+  a:visited {
+    font-size: 2em;
+    text-decoration: none;
+    color: #a87132;
+    padding: 30px;
+    border:4px black solid;
+    border-radius: 100px;
+  }
